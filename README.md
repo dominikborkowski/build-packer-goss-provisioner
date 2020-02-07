@@ -1,2 +1,16 @@
 # build-packer-goss-provisioner
-Docker container for building packer, goss, and packer-goss-provisioner
+Docker container for building packer and packer-goss-provisioner
+
+
+## What's included
+
+* [Alpine Linux](https://alpinelinux.org/) 3.10
+* [HashiCorp Packer](https://packer.io/) 1.5.1
+* [Packer Provisioner Goss](https://github.com/YaleUniversity/packer-provisioner-goss) 1.0.0
+
+## Results
+
+Build results are in ${GOPATH}/bin/:
+* /go/bin/packer
+* /go/bin/packer-provisioner-goss
+
